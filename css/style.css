@@ -1,0 +1,504 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(/img/bg6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.box {
+    /* border-top: 5px solid  rgb(255, 0, 0); */
+    border: 5px;
+    border-style: solid;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-left-color: rgba(13, 255, 0, 0.949);
+    border-right-color: rgba(13, 255, 0, 0.949);
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.name h2 {
+    color: blue;
+    padding-left: 25px;
+}
+
+.address {
+    padding-left: 25px;
+
+}
+
+.id {
+    display: inline-flex;
+    padding-left: 25px;
+}
+
+.text {
+    color: blue;
+    justify-content: space-between;
+    text-decoration: underline;
+    padding-left: 5px;
+}
+
+/* .photo img{
+    width: 100px;
+    padding-right: 50px;
+} */
+
+.objective h2 {
+    background-color: rgb(1, 130, 251);
+    border: 2px solid red;
+    border-radius: 12px;
+    padding-left: 5px;
+    margin-top: 10px;
+    display: flex;
+    font-size: 23px;
+}
+
+.objective h3 {
+    padding-left: 25px;
+}
+
+.qualification h2 {
+    background-color: rgb(1, 130, 251);
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 23px;
+    padding-left: 5px;
+    display: flex;
+}
+
+.standard {
+    /* background-color: red; */
+    padding-left: 25px;
+    margin: 5px;
+}
+
+.technical h2 {
+    padding-left: 5px;
+    background-color: rgb(1, 130, 251);
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 23px;
+    display: flex;
+}
+
+.programming {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin: 5px;
+}
+
+.lang {
+    padding-left: 10px;
+}
+
+.system {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin: 5px;
+}
+
+.os {
+    padding-left: 10px;
+}
+
+.activities h2 {
+    /* background-color: red; */
+    padding-left: 5px;
+    background-color: rgb(1, 130, 251);
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 23px;
+    display: flex;
+}
+
+.adca {
+    margin: 5px;
+    padding-left: 25px;
+}
+
+.skills h2 {
+    padding-left: 5px;
+    background-color: rgb(1, 130, 251);
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 23px;
+    display: flex;
+}
+
+.details {
+    padding-left: 25px;
+    margin: 5px;
+}
+
+.autospool {
+    color: rgb(1, 130, 251);
+}
+
+.cad {
+    color: rgb(1, 130, 251);
+}
+
+.excel {
+    color: rgb(1, 130, 251);
+}
+
+/* .experience{
+    align-items: center;
+} */
+
+.experience h2 {
+    padding-left: 5px;
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 23px;
+    background-color: rgb(1, 130, 251);
+    display: flex;
+    margin-top: 5px;
+}
+
+.work {
+    padding-left: 25px;
+    display: flex;
+    /* align-items:center; */
+}
+
+.worked h3 {
+    /* color: red; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.companyname {
+    padding-left: 5px;
+    margin-top: 2px;
+}
+
+.client {
+    padding-left: 25px;
+    display: flex;
+    /* align-items:center; */
+}
+
+.clienttext h3 {
+    /* color: red; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.clientname {
+    padding-left: 5px;
+    margin-top: 2px;
+}
+
+.position {
+    padding-left: 25px;
+    display: flex;
+    /* align-items:center; */
+}
+
+.positiontext h3 {
+    /* color: red; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.positionname h3 {
+    color: rgb(1, 130, 251);
+    padding-left: 5px;
+    margin-top: 2px;
+}
+
+.project {
+    padding-left: 25px;
+    display: flex;
+    /* align-items:center; */
+}
+
+.projecttext h3 {
+    /* color: red; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.projectname {
+    padding-left: 5px;
+    margin-top: 2px;
+}
+
+.duration {
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.durationtext h3 {
+    /* color: red; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.durationtime {
+    padding-left: 5px;
+    margin-top: 2px;
+}
+
+.roles h2 {
+    padding-left: 5px;
+    background-color: rgb(1, 130, 251);
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+.rolesdetails {
+    padding-left: 25px;
+    /* margin: 5px; */
+}
+
+.interest h2 {
+    padding-left: 5px;
+    background-color: rgb(1, 130, 251);
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 23px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.interestdetails {
+    margin: 5px;
+    padding-left: 25px;
+}
+
+.abilities h2 {
+    padding-left: 5px;
+    background-color: rgb(1, 130, 251);
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 23px;
+    display: flex;
+}
+
+.abilitiesdetails {
+    margin: 5px;
+    padding-left: 25px;
+}
+
+.personal h2 {
+    padding-left: 5px;
+    background-color: rgb(1, 130, 251);
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 23px;
+    display: flex;
+}
+
+.so {
+    display: flex;
+    /* display: inline-flex; */
+    align-items: center;
+    padding-left: 25px;
+    /* justify-content: flex-start; */
+}
+
+.fname {
+    padding-left: 5px;
+    margin: 5px;
+    /* display: inline-flex; */
+}
+
+.father {
+    padding-left: 200px;
+}
+
+.dob {
+    /* display: inline-flex; */
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    /* justify-content: flex-start; */
+}
+
+.dobtext {
+    padding-left: 5px;
+    margin: 5px;
+}
+
+.dobdate {
+    padding-left: 214px;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.gendertext {
+    padding-left: 5px;
+    margin: 5px;
+}
+
+.gendertype {
+    padding-left: 259px;
+}
+
+.marital {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.maritaltext {
+    padding-left: 5px;
+    margin: 5px;
+}
+
+.status {
+    padding-left: 205px;
+}
+
+.religion {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.religiontext {
+    padding-left: 5px;
+    margin: 5px;
+}
+
+.religionstatus {
+    padding-left: 254px;
+}
+
+.nationality {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.nationalitytext {
+    padding-left: 5px;
+    margin: 5px;
+}
+
+.nationalitystatus {
+    padding-left: 233px;
+}
+
+.languageknown {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.langusgeknowntext {
+    padding-left: 5px;
+    margin: 5px;
+}
+
+.knownstatus {
+    padding-left: 183px;
+}
+
+.declaration h2 {
+    padding-left: 5px;
+    background-color: rgb(1, 130, 251);
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 23px;
+    display: flex;
+}
+
+.declaration h3 {
+    padding-left: 25px;
+    margin: 5px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.place {
+    padding-left: 5px;
+    margin: 5px;
+}
+
+.sign {
+    padding-left: 232px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.dt {
+    padding-left: 5px;
+    margin: 5px;
+}
+
+.n {
+    padding-left: 290px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.social li a img {
+    width: 25px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: initial;
+}
+
+.linkedin {
+    border-radius: 50%;
+    /* border: 5px solid red; */
+    /* width: 25px; */
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.download a button {
+    background-color: rgb(130, 163, 21);
+    border: 2px solid black;
+    /* border-style: solid;
+    border-left-color: turquoise;
+    border-right-color: blue;
+    border-top-color: rebeccapurple; */
+    border-radius: 5px;
+}
+
+.dfont {
+    color: black;
+    font-style: italic;
+}
