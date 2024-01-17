@@ -466,7 +466,6 @@ h1 {
 .social li a img {
     width: 25px;
     padding: 5px;
-    justify-content: center;
 }
 
 .copy {
@@ -478,8 +477,6 @@ h1 {
 
 .linkedin {
     border-radius: 50%;
-    /* border: 5px solid red; */
-    /* width: 25px; */
 }
 
 .download {
